@@ -1,55 +1,55 @@
 # Syntax Errors
-# print("Hello")
-# try:
-#     print("Stmt-1")
-#     print(10/0)
-# except ZeroDivisionError:
-#     print("Stmt-2")
-#     print("Stmt-3")
-#     print("Stmt-4")
-#     print(10/2)
-# print("baby")    
+print("Hello")
+try:
+    print("Stmt-1")
+    print(10/0)
+except ZeroDivisionError:
+    print("Stmt-2")
+    print("Stmt-3")
+    print("Stmt-4")
+    print(10/2)
+print("baby")    
 
-# try:
-#     x = int(input("Enter first number: "))
-#     y = int(input("Enter second number: "))
-#     print(x/y)
-# except ZeroDivisionError as msg:
-#     print("Cant divide with zero")    
-# except ValueError:
-#     print("Please provide int value")    
+try:
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    print(x/y)
+except ZeroDivisionError as msg:
+    print("Cant divide with zero")    
+except ValueError:
+    print("Please provide int value")    
 
-# try:
-#     x = int(input("Enter first number: "))
-#     y = int(input("Enter second number: "))
-#     print(x/y)
-# except ArithmeticError as msg:
-#     print("ArithmeticError")    
-# except ZeroDivisionError:
-#     print("ZeroDivisionError") 
+try:
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    print(x/y)
+except ArithmeticError as msg:
+    print("ArithmeticError")    
+except ZeroDivisionError:
+    print("ZeroDivisionError") 
 
-# try: 
-#     x =int(input("Enter First Number: "))
-#     y =int(input("Enter Second Number: "))
-#     print(x/y)
-# except (ZeroDivisionError) as msg:
-#     print(msg)    
-# except (ValueError) as msg:
-#     print(msg)   
-# try :
-#     print(10/0)
-# except:
-#     print("Default error")    
-# except ZeroDivisionError:
-#     print("zerodevision errror")    ERROR
-# import os
-# try :
-#     print("Try")
-#     os._exit(0)
-# except ValueError:
-#     print("except")
-# finally:
-#     print("finally")        
+try: 
+    x =int(input("Enter First Number: "))
+    y =int(input("Enter Second Number: "))
+    print(x/y)
+except (ZeroDivisionError) as msg:
+    print(msg)    
+except (ValueError) as msg:
+    print(msg)   
+try :
+    print(10/0)
+except:
+    print("Default error")    
+except ZeroDivisionError:
+    print("zerodevision errror")    ERROR
+import os
+try :
+    print("Try")
+    os._exit(0)
+except ValueError:
+    print("except")
+finally:
+    print("finally")        
 
 
 
